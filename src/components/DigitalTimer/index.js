@@ -49,7 +49,7 @@ class DigitalTimer extends Component {
     if (isTimeRunning) {
       clearInterval(this.intervelId)
     } else {
-      this.intervelId = setInterval(this.onTimerDecrementSecounds, 10)
+      this.intervelId = setInterval(this.onTimerDecrementSecounds, 1000)
     }
   }
 
