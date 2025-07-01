@@ -1,0 +1,112 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to top right, #defafe, #cffcf1);
+  font-family: Roboto;
+  text-align: center;
+  height: 100vh;
+}
+.time-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  padding-top: 160px;
+  padding-left: 200px;
+  margin-right: 50px;
+}
+.timer-bg {
+  background-color: #fff;
+  height: 180px;
+  width: 180px;
+  border-radius: 95px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  padding-top: 50px;
+}
+p {
+  margin-left: 0px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+.timer {
+  font-size: 36px;
+  color: #00d9f5;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.timer-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start-or-pause {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+button {
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.buttons {
+  display: flex;
+}
+.buttons-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.minutes {
+  height: 35px;
+  width: 60px;
+  background-image: linear-gradient(to right, #11edab, #00d9f5);
+  border-radius: 7px;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+  .timer-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .time-section {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 120px;
+    margin-right: 50px;
+  }
+  .timer-bg {
+    background-color: #fff;
+    height: 120px;
+    width: 120px;
+    border-radius: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .timer {
+  font-size: 26px;
+  font-family: Roboto;
+}
+}
